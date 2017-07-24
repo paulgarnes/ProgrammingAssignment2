@@ -39,7 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## This second function, cacheSolve computes the inverse of the special "matrix"
 ## from the makeCacheMatrix above. We'll know if this actually works if when the
 ## matrix has not changed, the function pulls from the cache instead of 
-## computing the answer from scratch again.
+## computing the answer from scratch.
 
 cacheSolve <- function(x, ...) {
         
